@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.marcador{
+    border: 1px solid red;
+}
+
+/*topo*/
+.container-topo{
+    background-color: #2f86d6;
+    padding: 20px 0;
+}
+
+.container-navegacao{
+    width: 1024px;
+    height: 83px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.container-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+}
+
+.container-logo p{
+    width: 1024px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.container-logo img{
+    width: 80px;
+    float: left;
+}
+
+.container-logo h1{
+    color: #000000;
+    font-size: 32px;
+}
+
+.container-links{
+    position: absolute;
+    right: 0;
+    top: 35%;
+   
+}
+    
+
+.container-links a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 8px;
+}
+

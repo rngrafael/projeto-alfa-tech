@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.marcador{
+    border: 1px solid red;
+}
+
+/*topo*/
+.container-topo{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.container-navegacao{
+    width: 1024px;
+    height: 83px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+}
+
+.container-logo p{
+    width: 1024px;
+    color: #2f86d6;
+    font-size: 16px;
+
+}
+
+.container-logo img{
+    width: 80px;
+    float: left;
+}
+
+.container-logo h1{
+    color: #000000;
+    font-size: 32px;
+}
+
+.container-links{
+    position: absolute;
+    right: 0;
+    top: 35%;
+   
+}
+    
+
+.container-links a{
+    color: #233032;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/*área banner*/
+.container-banner{
+    background-color: #2f86d6;
+}
+
+.area-banner-principal{
+    width: 1024px;
+    padding: 180px 0;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.area-banner-texto{
+    width: 470px;
+    
+}
+
+.area-banner-imagem{
+    height: 273px;
+    width: 512px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.area-banner-imagem img{
+    box-sizing: border-box;
+    margin-left: 30px;
+    position: absolute;
+    top: -90px;
+    left: -32px;
+}
+
+.area-banner-texto h2{
+    font-size: 28px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.area-banner-texto p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.area-banner-texto{
+    font-size: 18px;
+}
+
+/*area anúncio*/
+
+.container-anuncio-principal{
+    padding: 40px 0;
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-anuncio-texto{
+    width: 600px;
+    float: left;
+}
+
+.container-anuncio-link{
+    float: right;
+    padding: 12px 12px 12px 38px;
+    background: url(../assets/icone-foguete.png) no-repeat 16px 50%;
+    border-radius: 5px;
+}
+
+.container-anuncio-texto h3, .container-anuncio-texto p{
+    color: #fff;
+}
+
+.container-anuncio-link a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.remove-ponto-flutuante{
+    clear: both;
+}
+
+.cor-fundo-anuncio-1{
+    background-color: #233032;
+}
+
+.cor-fundo-anuncio-2{
+    background-color: #2f86d6;
+}
+
+.cor-botao-anuncio-1{
+    background-color: #2f86d6;
+}
+
+.cor-botao-anuncio-2{
+    background-color: #233032;
+}
+
+/*área informações*/
+.container-informacoes{
+    background-color: #fff;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.container-informacoes-principal{
+    padding: 100px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container-informacoes-principal h3{
+    text-align: center;
+    width: 900px;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    padding: 10px 0;
+    font-size: 32px;
+    color: #000000;
+}
+
+.container-informacoes-principal span{
+    color: #2f86d6;
+}
+
+.container-informacoes-cards{
+    display: flex;
+    width: 1024px;
+    box-sizing: border-box;
+    margin: 60px auto;
+}
+
+.card{
+    width: 34%;
+    box-sizing: border-box;
+    
+}
+
+.card img{
+    width: 86px;
+    margin: 8px 35% 8px 35%;
+    
+}
+
+.card p{
+    font-size:16px;
+}
+
+.card h4{
+    font-size: 18px;
+}
+
+.card h4, .card p, .card img{
+    text-align: center;
+}
+
+.card h4, .card p{
+    color: #000000;
+    padding: 8px 0;
+}
+
+/*área tabela de planos*/
+
+
+.container-planos{
+    background-color: #f1f3f7;
+    padding: 70px 0 60px;
+}
+
+caption{
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    padding: 20px 0 40px;
+}
+
+caption span{
+    color: #2f86d6;
+}
+
+.area-tabela{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+table{
+    background-color: #fff;
+    box-shadow: #2f86d6 0 0 30px 10px;
+}
+
+
+
+table img{
+    width: 86px;
+}
+
+th{
+    font-size: 18px;
+    color: #000000;
+    padding: 16px 50px 20px;
+}
+
+th p{
+    font-size: 13px;
+    color: #a89f9f;
+}
+
+th img, th p{
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.linha-impar, .linha-par{
+    font-size: 16px;
+    text-align: center;
+}
+
+.linha-impar{
+    background-color: #f6f6f6;
+}
+
+.linha-par{
+    background-color: #f1f3f7;
+}
+
+tbody td{
+    padding: 10px 0;
+}
+
+/*área rodapé*/
+.container-rodape{
+    padding: 100px 0;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #f1f3f7;
+}
+
+.container-rodape .container-logo{
+    width: 320px;
+    top: 40px;
+    left: 40%;
+    
+}
+
+.container-contato{
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: -50px;
+}
+
+.container-contato p{
+    padding: 4px 0;
+}
+
+.container-rodape .desenvolvedor{
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    font-weight: bold;
+}
+
+.desenvolvedor span{
+    color: #2f86d6;
+}
+
