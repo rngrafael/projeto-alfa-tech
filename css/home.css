@@ -171,16 +171,15 @@
 .container-informacoes-principal{
     padding: 100px 0;
     box-sizing: border-box;
-    position: relative;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .container-informacoes-principal h3{
     text-align: center;
-    width: 900px;
-    position: absolute;
-    top: 20px;
-    left: 280px;
-    padding: 10px 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 30px;
     font-size: 32px;
     color: #000000;
 }
@@ -193,7 +192,8 @@
     display: flex;
     width: 1024px;
     box-sizing: border-box;
-    margin: 60px auto;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .card{
