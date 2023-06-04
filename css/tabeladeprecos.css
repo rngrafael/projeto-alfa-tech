@@ -63,3 +63,97 @@
     margin: 0 8px;
 }
 
+
+/*área tabela de preços*/
+
+.container-conteudo-principal{
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+table{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.primeira-linha, .primeira-coluna{
+    background-color: #f1f3f7;
+}
+
+
+th{
+    padding: 8px;
+}
+
+tbody{
+    font-size: 14px;
+    color: #000000;
+}
+
+tbody .primeira-coluna{
+    padding: 12px 0 12px 30px;
+    text-align: left;
+    font-weight: 500;
+}
+
+tbody td{
+    text-align: center;
+}
+
+th h2{
+    font-size: 22px;
+}
+
+th p{
+    font-size: 10px;
+    color: #b4a8a6;
+}
+
+.marcacao{
+    width: 16px;
+    height: 14px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+/*rodapé*/
+.container-rodape{
+    padding: 100px 0;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #2f86d6;
+}
+
+.container-rodape .container-logo{
+    width: 320px;
+    top: 40px;
+    left: 40%;
+    
+}
+
+.container-contato{
+    text-align: center;
+    
+    position: relative;
+    bottom: -50px;
+}
+
+.container-contato p{
+    padding: 4px 0;
+    color: #fff;
+}
+
+.container-rodape .desenvolvedor{
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.desenvolvedor span{
+    color: #2f86d6;
+}
+
